@@ -1,0 +1,17 @@
+{
+    "manifest_version" : 2,
+    "name" : "myaddon",
+    "description" : "Addon That Is useful in Translation, Archiving, Keyword Usage History and more ",
+    "version" : "1.0",
+    "chrome_url_overrides" : 
+    {
+        "newtab" : "popup.html"
+    },
+     "permissions" : [
+	"contextMenus"
+	],
+"background": {
+    "scripts": ["background1.js"]
+  }
+
+}
